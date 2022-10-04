@@ -8,7 +8,7 @@ function  atformSubmit(event) {
     } =  event.currentTarget;
     
   if (email.value === "" || password.value === "") {
-    return("All fields must be filled");
+    return alert("All fields must be filled");
    }else{
      console.log(`Email: ${email.value}, Password: ${password.value}`);
      event.currentTarget.reset();
